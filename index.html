@@ -21,6 +21,9 @@
         <span>Bookmark Manager</span>
     </div>
     <div class="main">
+        <div class="go-to-top">
+            <img src="https://cdn-icons-png.flaticon.com/128/8045/8045137.png" alt="" onclick="topFunction()">
+        </div>
         <div class="heading">
             <h1>Social</h1>
         </div>
@@ -44,7 +47,7 @@
             <div class="site">
                 <a href="https://www.instagram.com" target="_blank">
                     <div>
-                        <img src="https://cdn-icons-png.flaticon.com/128/1384/1384031.png" alt="Instagram">
+                        <img src="https://cdn-icons-png.flaticon.com/128/1384/1384031.png" alt="Instagram" class="invert">
                     </div>
                     <span>Instagram</span>
                 </a>
@@ -55,6 +58,22 @@
                         <img src="https://cdn-icons-png.flaticon.com/128/5968/5968756.png" alt="Discord">
                     </div>
                     <span>Discord</span>
+                </a>
+            </div>
+            <div class="site">
+                <a href="https://www.github.com" target="_blank">
+                    <div>
+                        <img src="https://cdn-icons-png.flaticon.com/128/733/733609.png" alt="Github" class="invert">
+                    </div>
+                    <span>Github</span>
+                </a>
+            </div>
+            <div class="site">
+                <a href="https://github.com/khawajagit?tab=repositories" target="_blank">
+                    <div>
+                        <img src="https://cdn-icons-png.flaticon.com/128/733/733609.png" alt="Github" class="invert">
+                    </div>
+                    <span>My-Github-Repos</span>
                 </a>
             </div>
         </div>
@@ -419,6 +438,14 @@
                 </a>
             </div>
             <div class="site">
+                <a href="https://itorrents-igruha.org/" target="_blank">
+                    <div>
+                        <img src="" alt="itorrents">
+                    </div>
+                    <span>itorrents-igruha</span>
+                </a>
+            </div>
+            <div class="site">
                 <a href="https://www.friv.com" target="_blank">
                     <div>
                         <img src="" alt="FRIV">
@@ -691,7 +718,7 @@
             <div class="site">
                 <a href="https://chat.openai.com" target="_blank">
                     <div>
-                        <img src="https://cdn-icons-png.flaticon.com/128/11865/11865326.png" alt="ChatGPT">
+                        <img src="https://cdn-icons-png.flaticon.com/128/11865/11865326.png" alt="ChatGPT" class="invert">
                     </div>
                     <span>ChatGPT</span>
                 </a>
@@ -699,7 +726,7 @@
             <div class="site">
                 <a href="https://platform.openai.com/playground" target="_blank">
                     <div>
-                        <img src="https://cdn-icons-png.flaticon.com/128/11865/11865326.png" alt="Open AI">
+                        <img src="https://cdn-icons-png.flaticon.com/128/11865/11865326.png" alt="Open AI" class="invert">
                     </div>
                     <span>Open AI</span>
                 </a>
@@ -707,8 +734,7 @@
             <div class="site">
                 <a href="https://podcast.adobe.com/enhance" target="_blank">
                     <div>
-                        <img
-                            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNC4wMDEiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyNC4wMDEgMjIiPgogIDxnIGlkPSJBZG9iZS1sb2dvIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTE5My44MDQgLTMwLjc2NikiPgogICAgPGcgaWQ9IkFkb2JlX0NvcnBvcmF0ZV9Ib3Jpem9udGFsX1JlZF9IRVgiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDExOTMuODA0IDMwLjk3MykiPgogICAgICA8cGF0aCBpZD0iUGF0aF8xMDg0NjQiIGRhdGEtbmFtZT0iUGF0aCAxMDg0NjQiIGQ9Ik04My45Mi0uMjA3aDl2MjJaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNjguOTE5KSIvPgogICAgICA8cGF0aCBpZD0iUGF0aF8xMDg0NjUiIGRhdGEtbmFtZT0iUGF0aCAxMDg0NjUiIGQ9Ik05LS4yMDdIMHYyMloiLz4KICAgICAgPHBhdGggaWQ9IlBhdGhfMTA4NDY2IiBkYXRhLW5hbWU9IlBhdGggMTA4NDY2IiBkPSJNNDkuMDEyLDQzLjQ1M2w2LDE0aC00bC0yLTVoLTRaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMzcuMDExIC0zNS42NikiLz4KICAgIDwvZz4KICA8L2c+Cjwvc3ZnPgo=" alt="Adobe Podcast">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNC4wMDEiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyNC4wMDEgMjIiPgogIDxnIGlkPSJBZG9iZS1sb2dvIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTE5My44MDQgLTMwLjc2NikiPgogICAgPGcgaWQ9IkFkb2JlX0NvcnBvcmF0ZV9Ib3Jpem9udGFsX1JlZF9IRVgiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDExOTMuODA0IDMwLjk3MykiPgogICAgICA8cGF0aCBpZD0iUGF0aF8xMDg0NjQiIGRhdGEtbmFtZT0iUGF0aCAxMDg0NjQiIGQ9Ik04My45Mi0uMjA3aDl2MjJaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNjguOTE5KSIvPgogICAgICA8cGF0aCBpZD0iUGF0aF8xMDg0NjUiIGRhdGEtbmFtZT0iUGF0aCAxMDg0NjUiIGQ9Ik05LS4yMDdIMHYyMloiLz4KICAgICAgPHBhdGggaWQ9IlBhdGhfMTA4NDY2IiBkYXRhLW5hbWU9IlBhdGggMTA4NDY2IiBkPSJNNDkuMDEyLDQzLjQ1M2w2LDE0aC00bC0yLTVoLTRaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMzcuMDExIC0zNS42NikiLz4KICAgIDwvZz4KICA8L2c+Cjwvc3ZnPgo=" alt="Adobe Podcast"  class="invert">
                     </div>
                     <span>Adobe Podcast</span>
                 </a>
@@ -755,7 +781,7 @@
                 <a href="https://snippet-generator.app/?description=&tabtrigger=cpp&snippet=%23include<iostream>%0Ausing+namespace+std%3B%0Aint+main%28%29%0A%7B%0A++++%0A%7D&mode=vscode"
                     target="_blank">
                     <div>
-                        <img src="https://cdn-icons-png.flaticon.com/128/11865/11865326.png" alt="Snippet Generator">
+                        <img src="https://cdn-icons-png.flaticon.com/128/11865/11865326.png" alt="Snippet Generator" class="invert">
                     </div>
                     <span>Snippet Generator</span>
                 </a>
@@ -1307,5 +1333,5 @@
         </div>
     </div>
 </body>
-
+<script src="script.js"></script>
 </html>
