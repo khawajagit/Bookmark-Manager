@@ -1,3 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: rgb(250, 223, 73);
     font-family: 'Croissant One', cursive;
@@ -6,6 +13,24 @@ body{
 }
 h1{
     font-size: 2em;
+}
+.main{
+    position: relative;
+}
+.go-to-top{
+    background-color: #000;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    bottom: 2rem;
+    right: 1.5rem;
+    position: fixed;
+    display: flex;
+    cursor: pointer;
+}
+.go-to-top img{
+    width: 60%;
+    filter: invert();
 }
 .navbar{
     position: relative;
@@ -17,10 +42,13 @@ h1{
     font-weight: 600;
     padding: 1rem;
     letter-spacing: 0.5rem;
-    border-radius: 1.6rem;
+    border-radius:  0 0 1rem 1rem;
     display: flex;
     align-items: center;
     padding-left: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 .navbar img{
     width: 2rem;
@@ -73,6 +101,9 @@ img{
     margin: auto;
     width: 5rem;
 }
+.invert{
+    filter: invert();
+}
 @media (max-width: 560px) {
     .navbar{
         font-size: 1rem;
@@ -93,5 +124,4 @@ img{
         font-size: 1em;
         color: aliceblue;
     }
-    
 }
